@@ -9,7 +9,7 @@ var passArray= [];
 //function generatePassword() {
   //const characters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ@!#$%^&*()_+{}[]";
   //var password = "";
-  //var passwordLength = 16;
+  //var passwordLength should be more than 8 and less than 120
 
   var passwordLength ;
 
@@ -90,5 +90,5 @@ var passArray= [];
 
        }}
 
-       generateBtn.addEventListener("click", writePassword);
+       generateBtn.addEventListener("click", writeNewPassword);
 
